@@ -1,0 +1,40 @@
+SQL*Plus: Release 18.0.0.0.0 - Production on 수 10월 21 11:20:41 2020
+Version 18.4.0.0.0
+
+Copyright (c) 1982, 2018, Oracle.  All rights reserved.
+
+사용자명 입력: sys as sysdba
+비밀번호 입력:
+
+다음에 접속됨:
+Oracle Database 18c Express Edition Release 18.0.0.0.0 - Production
+Version 18.4.0.0.0
+
+SQL> alter session set "_ORACLE_SCRIPT" = true;
+
+세션이 변경되었습니다.
+
+SQL> alter session set
+  2  container = XEPDB1;
+
+세션이 변경되었습니다.
+
+SQL> boardboardboardboard
+SP2-0734: "boardboard..."(으)로 시작되는 알 수 없는 명령 - 나머지 줄은 무시되었습니다.
+SQL> @?/demo/schema/human_resources/hr_main.sql
+
+specify password for HR as parameter 1:
+1의 값을 입력하십시오: hr
+
+specify default tablespeace for HR as parameter 2:
+2의 값을 입력하십시오: users
+
+specify temporary tablespace for HR as parameter 3:
+3의 값을 입력하십시오: temp
+
+specify log path as parameter 4:
+4의 값을 입력하십시오: C:\app\1104-27\product\18.0.0\dbhomeXE\demo\schema\log/
+
+
+PL/SQL 처리가 정상적으로 완료되었습니다.
+
